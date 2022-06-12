@@ -1,2 +1,2 @@
-# ghy1675.porfolios.github.io
+# ghy1675.github.io
 Web Porfolio
