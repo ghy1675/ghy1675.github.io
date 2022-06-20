@@ -45,8 +45,21 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#roi">Roi</a></li>
-          <li><a class="nav-link scrollto " href="#project">Project</a></li>
+          <li><a class="nav-link scrollto " href="#interests">Interests</a></li>
+          <!--<li><a class="nav-link scrollto " href="#project">Project</a></li>-->
+          <li class="dropdown"><a href="#smu projects"><span>Project</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              
+              <li class="dropdown"><a href="#smu projects"><span>SangMyung Univ.</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#smu dev projects">Development Projects</a></li>
+                  <li><a href="#smu sec projects">Security Projects</a></li>
+                </ul>
+              </li>
+              <li><a href="#keti projects">KETI</a></li>
+              <li><a href="#ninevr projects">NineVR</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -61,7 +74,7 @@
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h1 class="hero-title mb-4">안녕하세요, 유호균입니다</h1>
+          <h1 class="hero-title mb-4">안녕하세요, 유호균입니다.</h1>
           <p class="hero-subtitle"><span class="typed" data-typed-items="Information Security Specialist, Developer"></span></p>
         </div>
       </div>
@@ -210,13 +223,13 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Services ROI ======= -->
-    <section id="roi" class="services-mf pt-5 route">
+    <section id="interests" class="services-mf pt-5 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
               <h3 class="title-a">
-                ROI
+                Interests
               </h3>
               <p class="subtitle-a">
                 제가 관심있는 일들입니다.
@@ -326,99 +339,72 @@
     </div><!-- End Counter Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="project" class="portfolio-mf sect-pt4 route">
+    <section id="smu projects" class="portfolio-mf sect-pt4 route">
       <div class="container">
-        <div class="row">
+        <div  class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
               <h3 class="title-a">
-                Projects (2017.09 ~ )
+                SANGMYUNG Univ. Projects
               </h3>
               <p class="subtitle-a">
-                Projects History
+                Sep. 2017 ~ Jun. 2021
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+          <div id="smu projects"class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title">
+              Development Projects
+              </h3>
+              <p class="subtitle-a">
+                Sep. 2017 ~ Jun. 2021
               </p>
               <div class="line-mf"></div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/cover/projects-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/cover/projects-1.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">음성인식 인공지능을<br>이용한 조명제어 시스템</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Python3, AWS</span> / <span class="w-date">Sep. 2017 ~ Dec. 2017</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="details/projects-1.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <pre>
+        1) 프로젝트명 : <b>음성인식 인공지능을 이용한 조명제어 시스템</b>
+        - 수행 기간 : Sep. 2017 ~ Dec. 2017 
+        - 주요 역할 : AWS 및 인공지능 비서 서비스 알렉사 구축 담당 <b>(팀장)</b>
+        - <a style="color:red" href="details/projects-1.html"><strong>더보기</strong></a>
+        2) 프로젝트명 : <b>가상 개인 비서 서비스를 이용한 IoT 스마트 홈 구축</b>
+        - 수행 기간 : Mar. 2018 ~ Jun. 2018
+        - 주요 역할 : AWS 및 인공지능 비서 서비스 알렉사 구축 담당 <b>(팀장)</b>
+        - <a style="color:orange" href="details/projects-2.html"><strong>더보기</strong></a>
+
+        3) 프로젝트명 : <b>IoT 기술을 활용한 에너지 절약형 보이는 초인종</b>
+        - 수행 기간 : Mar. 2018 ~ Jun. 2018 
+        - 주요 역할 : ATmega328P를 이용한 전력량 측정을 통한 실내 위치 파악 및 전등점멸 시스템 설계
+        - <a style="color:yellow" href="details/projects-3.html"><strong>더보기</strong></a>
+
+        4) 프로젝트명 : <b>비지도 학습 머신러닝을 활용한 진료상담 챗봇 서비스</b>
+        - 수행 기간 : Sep. 2018 ~ Dec. 2018
+        - 주요 역할 : Python3와 Flask를 이용한 KAKAO 챗봇 API 연동 및 Konlpy를 이용하여 사용자 입력에 따른 자연어 처리
+        - <a style="color:green" href="details/projects-4.html"><strong>더보기</strong></a>
+
+        5) 프로젝트명 : <b>딥러닝을 이용한 영상 압축 파일 내 빠른 객체 인식 방법</b>
+        - 수행 기간 : 2021.03 ~ 2021.06 
+        - 주요 역할 : Python3와 Flask를 이용한 KAKAO 챗봇 API 연동 및 Konlpy를 이용하여 사용자 입력에 따른 자연어 처리 <b>(팀장)</b>
+        - <a style="color:purple" href="details/projects-5.html"><strong>더보기</strong></a>
+         </pre>
+          <div class="title-box text-center">
+              <h3 class="title">
+                Security Projects 
+              </h3>
+              <p class="subtitle-a">
+                Mar. 2018 ~ Jun. 2021 
+              </p>
+              <div class="line-mf"></div>
             </div>
-          </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/cover/projects-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="assets/img/cover/projects-6.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/cover/projects-2.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">가상 개인 비서 서비스를 이용한 IoT 스마트홈 구축 
-                    <div class="w-more">
-                      <span class="w-ctegory">Python3, AWS</span> / <span class="w-date">Mar. 2018 ~ Jun. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/cover/projects-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/cover/projects-3.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">IoT 기술을 활용한 에너지 절약형 전등점멸 초인종 설계</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">C, Arduino</span> / <span class="w-date">Mar. 2018 ~ Jun. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/cover/projects-4.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/cover/projects-4.png" alt="" class="img-fluid">
+                  <img src="assets/img/cover/projects-6.png" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
@@ -426,12 +412,12 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">무선 IoT 장비에 대한<br>이상행위 패킷 탐지 장치</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Python3, Tensorflow</span> / <span class="w-date">Mar. 2018 ~ Jun. 2018</span>
+                      <span class="w-ctegory">Python2, Scapy</span> / <span class="w-date">Mar. 2018 ~ Jun. 2018</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                      <a href="details/projects-6.html"> <span class="bi bi-plus-circle"></span></a>
                     </div>
                   </div>
                 </div>
@@ -440,9 +426,9 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/cover/projects-5.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="assets/img/cover/projects-7.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/cover/projects-5.png" alt="" class="img-fluid">
+                  <img src="assets/img/cover/projects-7.png" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
@@ -455,42 +441,19 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                      <a href="details/projects-7.html"> <span class="bi bi-plus-circle"></span></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/cover/projects-6.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="assets/img/cover/projects-8.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/cover/projects-6.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">비지도 학습 머신러닝을 활용한 진료 상담 챗봇 서비스</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Python3, Konlpy</span> / <span class="w-date">Sep. 2018 ~ Dec. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="work-box">
-              <a href="assets/img/cover/projects-7.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/cover/projects-7.png" alt="" class="img-fluid">
+                  <img src="assets/img/cover/projects-8.png" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
@@ -498,44 +461,18 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">복제 불가능한 QR코드 본인인증 시스템</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Python3, Java</span> / <span class="w-date">Dec. 2020 ~ Dec. 2020</span>
+                      <span class="w-ctegory">Python3, Java, Android</span> / <span class="w-date">Nov. 2020 ~ Dec. 2020</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                      <a href="details/projects-8.html"> <span class="bi bi-plus-circle"></span></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!--
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">OpenCV를 활용한 관심영역(ROI) 객체 삭제 프로그램</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Python3, OpenCV</span> / <span class="w-date">Dec. 2020 ~ Dec. 2020</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          -->
           <div class="col-md-6">
             <div class="work-box">
               <a href="assets/img/cover/projects-9.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
@@ -553,42 +490,19 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                      <a href="details/projects-9.html"> <span class="bi bi-plus-circle"></span></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          
           <div class="col-md-6">
             <div class="work-box">
               <a href="assets/img/cover/projects-10.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="assets/img/cover/projects-10.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">딥러닝을 이용한 영상 압축 파일 내 빠른 객체 인식 방법</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Python3, Pytorch, Yolov5</span> / <span class="w-date">Mar. 2021 ~ Jun. 2021</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="work-box">
-              <a href="assets/img/cover/projects-11.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/cover/projects-11.png" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
@@ -601,13 +515,28 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                      <a href="details/projects-10.html"> <span class="bi bi-plus-circle"></span></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+          <section id="keti projects" class="portfolio-mf sect-pt4 route">
+            <div class="container">
+        <div class="row">
+           <div class="title-box text-center">
+              <h3 class="title-a">
+                KETI(Korea Electronics Technology Institute)
+              </h3>
+              <p class="subtitle-a">
+                S/W Developer<br>Sep. 2018 ~ Dec. 2021
+              </p>
+              <div class="line-mf"></div>
+            </div>
           <div class="col-md-4">
             <div class="work-box">
               <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
@@ -682,7 +611,97 @@
           </div>
         </div>
       </div>
-    </section><!-- End Portfolio Section -->
+    </section>
+    <!--
+    <section id="ninevr projects" class="portfolio-mf sect-pt4 route">
+            <div class="container">
+        <div class="row">
+           <div class="title-box text-center">
+              <h3 class="title-a">
+                NineVR
+              </h3>
+              <p class="subtitle-a">
+                Information Security Specialist<br>Jul. 2021 ~ now
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">모의해킹</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Python3, Scapy, MultiThread</span> / <span class="w-date">Jul. 2021 ~ now</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>-
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/cover/projects-12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/cover/projects-12.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">보안 시스템 구축</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Snort, Fail2ban, IPTables</span> / <span class="w-date">Jan. 2022 ~ now</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/cover/projects-13.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/cover/projects-13.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">백엔드 서버 개발</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Java, Springboot, MVC</span> / <span class="w-date">Mar. 2022 ~ now</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  -->
+    <!-- End Portfolio Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
