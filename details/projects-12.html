@@ -97,15 +97,7 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio-details-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio-details-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio-details-3.jpg" alt="">
+                  <img src="../assets/img/details/projects-12/projects-12-1.jpg" alt="">
                 </div>
 
               </div>
@@ -113,21 +105,35 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Projects Details</h3>
+              <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Category</strong>: Python3, C, Darknet, Pytorch</li>
+                <li><strong>Project date</strong>: Jan, 2021 ~ Dec, 2021</li>
+                <li><strong>Result</strong>: 현재 진행 중</li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                To be Updated....
-              </p>
+              <h2>Project Details</h2>
+              <style type="text/css">
+                      .contents{text-indent: 10px;}
+              </style>
+              <p class="contents">
+                KETI(한국전자기술연구원)에서 진행한 두번째 프로젝트 입니다.<br></p>
+              <p class="contents">
+                본 프로젝트는 과학기술정보통신부와 산업통상자원부 주도로 이루어진 <a target="_blank" href="http://nis2030.org/index.php">차세대지능형반도체사업</a>입니다.<br> 본 사업 중 엣지 인공지능 프로세서 플랫폼 기술 과제에 FPGA 보드에 카메라 모듈을 설치해 객체인식 인공지능 실험을 담당했습니다.<br></p>
+              <p class = "contents">
+                본 과제에는 2가지를 중점적으로 진행했습니다.<br>
+                첫 번째는 엣지 디바이스에 탑재 할 수 있도록 기존 객체인식 모델의 경량화, 빠른 처리속도와 높은 정확도였습니다. 그래서 신경망 계층별로 소요되는 시간과 처리 데이터량을 분석했을 때 <b>GEMM(General Matrix Multiply)</b>이 가장 많은 시간을 소모하는 사실을 파악했습니다.</p>
+              <p class="contents"> 
+                개선 방법을 찾아 보던 중 다중의 Mac(Multiplication and Accumulation)을 연결한 Systolic Array 형식으로 해결하고자 하여 기존 프레임워크의 소스를 분석하여 변경하였습니다.</p>
+              <p class = "contents">
+                두 번째는 엣지 다바이스에서만 객체인식을 하는 것이 아니라 중앙 서버로 전송하여 대용량의 자료를 처리할 수 있도록 하는것이었습니다.<br>
+              그래서 엣지 디바이스에서 외부 서버로 영상 데이터를 전송해야 했습니다. 그래서 OS에 커널 레벨에서 카메라 모듈을 복사하는 모듈을 생성하여 OS를 변경하였고, 복사한 모듈로 수신된 영상 데이터를 REST API를 사용해 서버로 전송하는 기능을 프레임워크에 탑재했습니다.</p>
+             <p class = "contents">
+               이외에도 기존 신경망인 Yolo보다 더 경량화 된 신경망인 SSD(Single Shot Detector) 탑재 방법을 연구했습니다.
+             </p>
             </div>
           </div>
 
